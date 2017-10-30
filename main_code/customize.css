@@ -372,15 +372,20 @@ h5{
 /*PAGE 3*/
 
 .wrapperPage_3 {
-display: flex;
-justify-content: center;
-flex-direction: column;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .peta_logo {
+  background-image: url(../../../images/Peta_logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 30vh;
-  width: 30vw;
-
 }
 
 
@@ -398,10 +403,19 @@ flex-direction: column;
   text-align: left;
 
 }
+.water_logo {
+  background-image: url(../../../design/Logotype_symbols/Water_symbol_gold_thin.svg);
+}
+.wind_logo {
+  background-image: url(../../../design/Logotype_symbols/Wind_symbol_gold_thin.svg);
+}
 .fire_logo {
+  background-image: url(../../../design/Logotype_symbols/Fire_symbol_gold_thin.svg);
+
+}
+.fire_logo, .wind_logo, .water_logo {
   display: flex;
   justify-content: center;
-  background-image: url(../../../design/Logotype_symbols/Fire_symbol_gold_thin.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -448,7 +462,7 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: #414D56;
+  background-color: black;;
   color: white;
 }
 
