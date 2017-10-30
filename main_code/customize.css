@@ -15,6 +15,20 @@ strong {
   color: #C5B085;
   font-family: 'ArcaMajora3'
 }
+h1, h3, h4 {
+  letter-spacing: 5px;
+  line-height: 40px;
+}
+h5{
+  color: #66DCBB;
+  font-family: Helvetica Neue;
+}
+p {
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-family: Helvetica Neue;
+
+}
 @font-face {
     font-family: 'ArcaMajora3'; /*a name to be used later*/
     src: url('../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
@@ -360,17 +374,9 @@ a:hover
     width: 578px;
   }
 }
-h5{
-  color: #66DCBB;
-  font-family: Helvetica Neue;
-}
-
-
 /*END OF PAGE 2*/
 
-
 /*PAGE 3*/
-
 .wrapperPage_3 {
   background-color: black;
   display: flex;
@@ -442,6 +448,27 @@ h5{
 
 
 /*END OF PAGE 4*/
+
+/*PAGE 6*/
+
+.payforChangeBox {
+  display: flex;
+  justify-content: flex-end;
+  color: #66DCBB;
+
+}
+
+.wrapperPage_6 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/*END OF PAGE 6*/
 
 .section {
   margin-top: -0.2px;
