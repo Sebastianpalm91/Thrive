@@ -1,2 +1,2 @@
-# THRIVE
-<<<<<<< HEAD
+# THRIVE PROJECT
+## GROUP 7
