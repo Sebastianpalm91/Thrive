@@ -451,12 +451,6 @@ a:hover
 
 /*PAGE 6*/
 
-.payforChangeBox {
-  display: flex;
-  justify-content: flex-end;
-  color: #66DCBB;
-
-}
 
 .wrapperPage_6 {
   background-color: black;
@@ -466,6 +460,12 @@ a:hover
   align-items: center;
   height: 100%;
   width: 100%;
+}
+.payforChangeBox {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  color: #66DCBB;
 }
 
 /*END OF PAGE 6*/
