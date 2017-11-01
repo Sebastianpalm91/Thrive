@@ -168,10 +168,10 @@ a:hover
   width: 30vw;
   height: 110vh;
   margin: -100px 0 0 0;
-  padding-top: 125px;
-  padding-right: 59px;
+  padding-top: 180px;
+  padding-right: 41px;
   right: 0px;
-  text-align: right;
+  text-align: center;
   background: #000000;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -242,7 +242,7 @@ a:hover
 }
 
 .scroll-indicator > .inner {
-    background-color: #C5B085;
+    background-color: #66DCBB;
     animation: scroll-indicator-animation 1.2s infinite cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
@@ -337,6 +337,19 @@ a:hover
   }
 }
 
+.payforChangeBoxMain h5{
+  color: #66DCBB;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 3vh;
+  z-index: 1;
+  font-size: 3.5vh;
+  font-family: 'ArcaMajora3' normal;
+  letter-spacing: 2vw;
+}
+
 /*END OF THRIVE LOGO TEXT*/
 
 /* PAGE 2*/
@@ -346,18 +359,21 @@ a:hover
   background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   margin: 0 auto;
   height: 45px;
-  width: 289px;
+  width: 80vw;
   z-index: 1;
   transition: 0.8s ease-out;
 }
 
 .main_landingpageText {
   max-width: 177px;
-  font-family: Helvetica Neue;
   padding-top: 20%;
+  padding-left: 5%;
   margin: 0;
+  font-family: Helvetica Neue;
+  text-align: left;
 }
 
 .wraplogo_text {
@@ -366,6 +382,7 @@ a:hover
   align-self: flex-start;
   margin-top: 20vh;
   text-align: left;
+  max-width: 80vw;
 }
 
 @media screen and (min-width: 737px) {
