@@ -39,6 +39,12 @@ p {
 /*#fp-nav ul li a span,
 #fp-nav ul li a.active span,
 #fp-nav ul li:hover a.active span,*/
+
+.fp-slidesNav.bottom,
+.fp-slidesNav {
+  bottom: 100px;
+}
+
 .fp-slidesNav.bottom ul li a.active span,
 .fp-slidesNav.bottom ul li:hover a.active span {
   height: 60px;
@@ -58,6 +64,7 @@ p {
   background-color: #C5B085;
   height: 30px;
   width: 30px;
+  bottom: 150px;
   text-decoration: none;
 }
 /*END OF NAVBARS*/
@@ -232,7 +239,7 @@ a:hover
 
 /*SCROLL INDICATOR*/
 
-.bottom {
+.bottomIndicator {
     position: absolute;
     bottom: 100px;
     left: 50%;
