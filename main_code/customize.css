@@ -354,8 +354,17 @@ a:hover
 
 /* PAGE 2*/
 
-.thrivelogoText_p2 {
+.bgpageTwo {
+  background-image: url(../../../images/landingpage_desktop/core_girl.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+}
 
+.thrivelogoText_p2 {
   background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -372,25 +381,30 @@ a:hover
   height: 50vh;
   padding-top: 20%;
   margin: 0;
-  font-family: Helvetica Neue;
+  font-family: "Helvetica Neue";
   text-align: left;
   line-height: 30px;
   transition: 0.8s ease-out;
+
 }
+
 
 .wraplogo_text {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  margin-top: 20vh;
+  margin-top: 10vh;
   text-align: left;
   max-width: 80vw;
 }
 
 @media screen and (min-width: 737px) {
   .thrivelogoText_p2 {
-    height: 90px;
-    width: 578px;
+    height: 10vh;
+    width: 50vw;
+  }
+  .wraplogo_text {
+    margin-top: 10vh;
   }
 }
 @media screen and (min-width: 737px) {
@@ -426,13 +440,6 @@ a:hover
 
 /*SLIDE PAGES 4*/
 
-.slide_pageText {
-  font-size: 16px;
-  margin: 0;
-  padding-top: 5vh;
-  text-align: left;
-
-}
 .water_logo {
   background-image: url(../../../design/Logotype_symbols/Water_symbol_gold_thin.svg);
 }
@@ -455,10 +462,25 @@ a:hover
   text-align: left;
 }
 
+.slide_pageText {
+  position: relative;
+  display: flex;
+  font-size: 16px;
+  margin: 0 auto;
+  padding-top: 5vh;
+  text-align: left;
+  width: 30vw;
+}
+
+.headerBox, h1{
+  transition: 1s ease-out;
+}
+
 .textWrapper {
   position: absolute;
-  text-align: left;
-  width: 50vw;
+  width: 80vw;
+  text-align: center;
+
 
 }
 .wrapperPage_4 {
@@ -472,13 +494,19 @@ a:hover
 
 @media screen and (min-width: 737px) {
   .slide_pageText {
-    text-align: left;
+    max-width: 100vw;
   }
-  .textWrapper {
-    text-align: left;
-    margin-left: 5vw;
-  }
+}
 
+@media screen and (max-width: 414px) {
+  .headerBox, h1 {
+      font-size: 25px;
+
+  }
+  .slide_pageText {
+    width: 50vw;
+    padding-top: 1vh;
+  }
 }
 
 
@@ -542,7 +570,7 @@ a:hover
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: black;;
+  /*background-color: black;*/
   color: white;
 }
 
