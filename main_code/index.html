@@ -39,7 +39,7 @@
   <!-- END OF MENU -->
 
   <div class="topleftCornerLogo"></div>
-<!-- TODO GET RID OF ALL UNESSESARY CODE IN BOOTSTRAP ETC. -->
+  <!-- TODO GET RID OF ALL UNESSESARY CODE IN BOOTSTRAP ETC. -->
 
   <div id="wrapper">
     <!-- MAIN PAGE 1 -->
@@ -53,18 +53,20 @@
     </div>
     <!-- PAGE 2 -->
     <div class="section">
-      <div class="bgpageTwo">
-
-      <div class="row text-center">
-        <div class="col shirt">
-          <div class="wraplogo_text">
-            <div class="thrivelogoText_p2"></div>
-            <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong>sustainable,<br> environmental</strong> and <strong> <br>ethical production.</strong><br>
-              <br>Our core values are at <br> <strong>heart</strong> of our decision making.</p>
+        <div class="bgpageTwo">
+          <div class="bgpageBlack">
+          <div class="row text-center">
+            <div class="col shirt">
+              <div class="wraplogo_text">
+                <div class="thrivelogoText_p2"></div>
+                <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong>sustainable,<br> environmental</strong> and <strong> <br>ethical production.</strong><br>
+                  <br>Our core values are at <br> <strong>heart</strong> of our decision making.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        <div class="bottom"><div class="scroll-indicator"><div class="inner"></div></div></div>
       </div>
       <!-- PAGE 3 -->
 
@@ -72,23 +74,24 @@
         <div class="wrapperPage_3">
           <div class="row text-center">
             <div class="col">
-              <h1>WE ARE THE FIRST</h1>
+              <h1>WE ARE<br>THE <strong>FIRST</strong></h1>
               <div class="peta_logo"></div>
-              <h1>IN SWEDEN</h1>
+              <h1>STORE<br>IN SWEDEN</h1>
             </div>
           </div>
         </div>
+        <div class="bottom"><div class="scroll-indicator"><div class="inner"></div></div></div>
       </div>
 
       <!-- PAGE 4 WITH 3 SLIDERS -->
       <div class="section">
         <div class="slide">
           <div class="wrapperPage_4">
-            <div class="fire_logo"></div>
-            <div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong>LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
+            <div class="wind_logo"></div>
+            <div class="textWrapper"><h1 class="headerBox">"<strong>SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
           </div>
         </div>
-
+        <div class="bottom"><div class="scroll-indicator"><div class="inner"></div></div></div>
         <!-- SLIDE 2 -->
         <div class="slide">
           <div class="wrapperPage_4">
@@ -99,21 +102,23 @@
         <!-- SLIDE 3 -->
         <div class="slide">
           <div class="wrapperPage_4">
-            <div class="wind_logo"></div>
-            <div class="textWrapper"><h1 class="headerBox">"<strong>SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
+            <div class="fire_logo"></div>
+            <div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong>LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
           </div>
         </div>
       </div>
       <!-- PAGE 5 -->
       <div class="section">
-        <div class="bgImage">
-
-        <div class="blackBox">
-
+        <div class="bgpageFive">
+          <div class="bgpageBlackRight">
+          <div class="row text-center">
+            <div class="col shirt">
+                <p class="main_landingpageTextPage5">WE WANT<br><strong>YOU</strong> TO<br><strong>SPREAD</strong><br>THE<br><strong>WORD</strong><br></p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-
+        <div class="bottomPageFive"><div class="scroll-indicatorPageFive"><div class="inner"></div></div></div>
       </div>
       <!-- PAGE 6 AND SLIDE 1-->
       <!-- TODO MAKE BELOW WRAPPER, ROWTEXT AND COL NEW CLASSES -->
@@ -169,7 +174,7 @@ $(document).ready(function() {
   $('#wrapper').fullpage(
     {
       slidesNavigation: true,
-      navigation: true,
+      navigation: false,
       controlArrows: false,
       autoScrolling: true,
       fitToSection: true,
