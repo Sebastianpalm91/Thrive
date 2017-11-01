@@ -361,19 +361,20 @@ a:hover
   background-size: contain;
   background-position: center;
   margin: 0 auto;
-  height: 45px;
+  height: 10vh;
   width: 80vw;
   z-index: 1;
   transition: 0.8s ease-out;
 }
 
 .main_landingpageText {
-  max-width: 177px;
+  width: 55vw;
+  height: 50vh;
   padding-top: 20%;
-  padding-left: 5%;
   margin: 0;
   font-family: Helvetica Neue;
   text-align: left;
+  transition: 0.8s ease-out
 }
 
 .wraplogo_text {
@@ -389,6 +390,11 @@ a:hover
   .thrivelogoText_p2 {
     height: 90px;
     width: 578px;
+  }
+}
+@media screen and (min-width: 737px) {
+  .main_landingpageText {
+    width: 30vw;
   }
 }
 /*END OF PAGE 2*/
