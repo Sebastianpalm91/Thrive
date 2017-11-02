@@ -366,6 +366,8 @@ a:hover
 .bgpageBlack {
   background-color: rgba(18, 17, 17, 0.7);
   width: 61vw;
+  height: 100vh;
+  padding-top: 20vh;
 }
 
 .bgpageTwo {
@@ -375,6 +377,7 @@ a:hover
   background-position: center;
   height: 100vh;
   width: 100vw;
+
   z-index: 1;
 
 }
@@ -386,7 +389,8 @@ a:hover
   background-position: center;
   margin: 0 auto;
   height: 10vh;
-  width: 75vw;
+  width: 80vw;
+  margin-left: 10vw;
   z-index: 1;
   transition: 0.8s ease-out;
 }
@@ -407,11 +411,8 @@ a:hover
 .wraplogo_text {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
   align-items: center;
-  margin-top: 10vh;
   text-align: left;
-  max-width: 35vw;
 }
 
 @media screen and (min-width: 370px) {
@@ -429,12 +430,10 @@ a:hover
 @media screen and (min-width: 737px) {
   .main_landingpageText {
     width: 30vw;
+    padding-left: 14vw;
   }
   .thrivelogoText_p2 {
     height: 10vh;
-  }
-  .wraplogo_text {
-    margin-top: 10vh;
   }
 }
 /*END OF PAGE 2*/
