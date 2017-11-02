@@ -573,15 +573,20 @@ a:hover
 .bgpageBlackRight {
   background-color: rgba(18, 17, 17, 0.7);
   margin-left: 39vw;
+  height: 100vh;
 }
 .main_landingpageTextPage5 {
-  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
   font-family: 'ArcaMajora3';
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 4px;
   line-height: 45px;
   text-align: center;
+  padding-top: 17vh;
 }
 /*SCROLL INDICATOR FOR PAGE 5*/
 .bottomPageFive {
