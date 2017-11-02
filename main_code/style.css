@@ -1,4 +1,45 @@
 @charset "UTF-8";
+
+        /*<div class="container">
+
+        <div data-am-fadeshow="next-prev-navigation">
+
+          Radio
+          <input type="radio" name="css-fadeshow" id="slide-1" />
+          <input type="radio" name="css-fadeshow" id="slide-2" />
+          <input type="radio" name="css-fadeshow" id="slide-3" />
+
+          Slides
+          <div class="fs-slides">
+            <div class="fs-slide">
+              Add content to images (sample)
+                <div class="wrapperPage_4">
+                  <div class="wind_logo"></div>
+                  <div class="textWrapper"><h1 class="headerBox">"<strong>SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
+                </div>
+            </div>
+            <div class="fs-slide">
+              <div class="wrapperPage_4">
+              <div class="water_logo"></div>
+              <div class="textWrapper"><h1 class="headerBox">"CLOTHES OF <strong>CHANGE</strong>"</h1><p class="slide_pageText">When you purchase our products you are actively making the world a better place – for the workers, yourself and the environment.</div></p>
+            </div>
+            </div>
+            <div class="fs-slide">
+              <div class="wrapperPage_4">
+              <div class="fire_logo"></div>
+              <div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong>LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
+              </div>
+            </div>
+          </div>
+
+          Quick Navigation
+          <div class="fs-quick-nav">
+            <label class="fs-quick-btn" for="slide-1"></label>
+            <label class="fs-quick-btn" for="slide-2"></label>
+            <label class="fs-quick-btn" for="slide-3"></label>
+          </div> */
+
+
 /*
  * CSS Fadeshow by @alexerlandsson
  * This is a fadeshow built in CSS and with customization in focus.
