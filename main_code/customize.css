@@ -443,6 +443,14 @@ a:hover
     height: 10vh;
   }
 }
+@media screen and (min-width: 1300px) {
+  .main_landingpageText {
+    padding-top: 10%;
+  }
+  .bgpageBlack {
+    padding-top: 15vh;
+  }
+}
 /*END OF PAGE 2*/
 
 /*PAGE 3*/
