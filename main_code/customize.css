@@ -415,9 +415,17 @@ a:hover
   text-align: left;
 }
 
+@media screen and (max-width: 320px) {
+  .main_landingpageText {
+    padding-left: 40px;
+    width: 70vw;
+  }
+
+}
+
 @media screen and (min-width: 370px) {
   .main_landingpageText {
-    padding-left: 20px;
+    padding-left: 15px;
   }
 
 }
@@ -429,8 +437,7 @@ a:hover
 }
 @media screen and (min-width: 737px) {
   .main_landingpageText {
-    width: 30vw;
-    padding-left: 14vw;
+    padding-left: 20vw;
   }
   .thrivelogoText_p2 {
     height: 10vh;
