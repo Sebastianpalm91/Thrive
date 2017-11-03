@@ -5,15 +5,15 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="customize.css">
-  <script src="jquery-3.2.1.min.js"></script>
-  <script src="jquery.fullPage.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <link rel="stylesheet" href="jquery.fullPage.css">
-
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/customize.css">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.fullPage.min.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </head>
 
 <body>
@@ -55,7 +55,7 @@
     <!-- PAGE 2 -->
     <div class="section">
       <div class="bgpageTwo">
-        <div class="bgpageBlack">
+        <div class="wow fadeInLeft bgpageBlack" >
           <div class="thrivelogoText_p2"></div>
           <div class="wraplogo_text">
             <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong>sustainable,<br> environmental</strong> and <strong> <br>ethical production.</strong><br>
@@ -69,7 +69,7 @@
 
       <div class="section">
         <div class="wrapperPage_3">
-          <h1 class="textPageThree">WE ARE<br>THE <strong>FIRST</strong></h1>
+          <h1 class="textPageThree">WE ARE<br>THE <strong class="wow pulse">FIRST</strong></h1>
           <div class="peta_logo"></div>
           <h1 class="textPageThreeSmall">STORE<br>IN SWEDEN</h1>
         </div>
@@ -155,11 +155,17 @@ SLIDE 3
           </div>
           <!-- SLIDE 2 -->
           <div class="slide">
-            <div class="rectangleLeft">
-              <h3>SHOP MASCULIN</h3>
+
+            <div class="wow fadeInDown rectangleLeft">
+              <h1 class="white_h1">SHOP<br>MASCULIN</h1>
             </div>
+            <div class="wow fadeInRight rectangleRight">
+              <h1 class="white_h1">SHOP<br>FEMININE</h1>
+            </div>
+            <div class="wrapperPage_6Slide2">
             <div class="thrivelogoTextp6"></div>
             <div class="shop_background"></div>
+          </div>
 
           </div>
         </div>
@@ -174,8 +180,8 @@ SLIDE 3
         slidesNavigation: true,
         navigation: false,
         controlArrows: false,
-        autoScrolling: false,
-        fitToSection: false,
+        autoScrolling: true,
+        fitToSection: true
 
 
       }
@@ -184,5 +190,5 @@ SLIDE 3
   });
 
   </script>
-
+</body>
   </html>

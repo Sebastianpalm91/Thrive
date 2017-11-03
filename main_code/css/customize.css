@@ -6,8 +6,12 @@
 
 */
 /*FOR GREEN TEXT THRUOUT THE PAGE*/
-body .fp-viewing-5-0 #fp-nav{
+body.fp-viewing-5-0 #fp-nav{
     display:none;
+}
+
+body {
+  margin-bottom: 1px;
 }
 strong {
   color: #66DCBB;
@@ -31,7 +35,7 @@ p {
 }
 @font-face {
   font-family: 'ArcaMajora3'; /*a name to be used later*/
-  src: url('../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
+  src: url('../../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
 }
 
 /*NAVBAR BOTTON*/
@@ -196,7 +200,7 @@ a:hover
 /*TOP LEFT CORNER LOGO */
 
 .topleftCornerLogo {
-  background-image: url(../../../design/Logotype_symbols/Thrive_logo_symbol_neonmint.svg);
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_symbol_neonmint.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: fixed;
@@ -251,7 +255,7 @@ a:hover
   height: 100vh;
   width: 100vw;
   top: 0;
-  background-image: url('../../../images/landingpage_mobile/mobile_01.png');
+  background-image: url('../../../../images/landingpage_mobile/mobile_01.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -261,14 +265,14 @@ a:hover
   z-index: 0;
 }
 .jumbotron.start.text-center-page2 {
-  background-image: url('../../../images/landingpage_mobile/mobile_02.png');
+  background-image: url('../../../../images/landingpage_mobile/mobile_02.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   animation-name: fade2;
 }
 .jumbotron.start.text-center-page3 {
-  background-image: url('../../../images/landingpage_mobile/mobile_03.png');
+  background-image: url('../../../../images/landingpage_mobile/mobile_03.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -303,7 +307,7 @@ a:hover
 .thrivelogoText {
   position: relative;
   display: flex;
-  background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_gold.svg);
   background-repeat: no-repeat;
   background-size: contain;
   align-self: center;
@@ -346,19 +350,19 @@ a:hover
 }
 
 .bgpageTwo {
-  background-image: url(../../../images/landingpage_desktop/core_girl.png);
+  background-image: url(../../../../images/landingpage_desktop/core_girl.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100vw;
-
+  padding-top: 0.1px;
   z-index: 1;
 
 }
 
 .thrivelogoText_p2 {
-  background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_gold.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -460,7 +464,7 @@ a:hover
 }
 
 .peta_logo {
-  background-image: url(../../../design/Logotype_symbols/Peta_logo.svg);
+  background-image: url(../../../../design/Logotype_symbols/Peta_logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -478,13 +482,13 @@ a:hover
 /*SLIDE PAGES 4*/
 
 .water_logo {
-  background-image: url(../../../design/Logotype_symbols/Water_symbol_gold_thin.svg);
+  background-image: url(../../../../design/Logotype_symbols/Water_symbol_gold_thin.svg);
 }
 .wind_logo {
-  background-image: url(../../../design/Logotype_symbols/Wind_symbol_gold_thin.svg);
+  background-image: url(../../../../design/Logotype_symbols/Wind_symbol_gold_thin.svg);
 }
 .fire_logo {
-  background-image: url(../../../design/Logotype_symbols/Fire_symbol_gold_thin.svg);
+  background-image: url(../../../../design/Logotype_symbols/Fire_symbol_gold_thin.svg);
 
 }
 .fire_logo, .wind_logo, .water_logo {
@@ -549,7 +553,7 @@ a:hover
 /*PAGE 5*/
 
 .bgpageFive {
-  background-image: url(../../../images/landingpage_desktop/cirkus_desk.png);
+  background-image: url(../../../../images/landingpage_desktop/cirkus_desk.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -655,37 +659,63 @@ a:hover
 
 /*SLIDE 2*/
 
+.wrapperPage_6Slide2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
 .shop_background {
-  background-image: url(../../../images/landingpage_mobile/mobile_shop.png);
-  position: absolute;
+
+  background-image: url(../../../../images/landingpage_mobile/mobile_shop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
-  top: 0;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 0;
 }
 .thrivelogoTextp6 {
-  position: relative;
-  display: flex;
-  background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
+  position: absolute;
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_gold.svg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  align-self: center;
-  margin: 0 auto;
-  height: 45px;
-  width: 289px;
-  z-index: 1;
+  height: 10vh;
+  width: 80vw;
+
+}
+
+.white_h1 {
+  color: white;
+}
+
+.rectangleLeft,
+.rectangleRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  height: 10vh;
+  width: 25%;
+  background-color: rgba(16,224,185,0.7);
+  color: #FFFFFF;
+  font-family: "Arca Majora 3";
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 .rectangleLeft {
   position: absolute;
-  margin-top: 10vh;
-  height: 69px;
-  width: 173px;
-  z-index: 1;
-  background-color: rgba(16,224,185,0.7);
+  margin-top: 20vh;
+}
+
+.rectangleRight {
+  position: absolute;
+  margin-top: 80vh;
+  right: 0.01px;
 }
 
 /*END OF PAGE 6*/
