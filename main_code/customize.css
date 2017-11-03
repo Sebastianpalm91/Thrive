@@ -6,6 +6,9 @@
 
 */
 /*FOR GREEN TEXT THRUOUT THE PAGE*/
+body .fp-viewing-5-0 #fp-nav{
+    display:none;
+}
 strong {
   color: #66DCBB;
 }
@@ -33,37 +36,6 @@ p {
 
 /*NAVBAR BOTTON*/
 
-/*#fp-nav ul li a span,
-#fp-nav ul li a.active span,
-#fp-nav ul li:hover a.active span,*/
-
-.fp-slidesNav.bottom,
-.fp-slidesNav {
-  bottom: 100px;
-}
-
-.fp-slidesNav.bottom ul li a.active span,
-.fp-slidesNav.bottom ul li:hover a.active span {
-  height: 60px;
-  width: 60px;
-}
-
-#fp-nav ul li,
-.fp-slidesNav.bottom ul li {
-  width: 40px;
-  height: 60px;
-  margin: 20px;
-  position:relative;
-}
-
-.fp-slidesNav.bottom ul li:hover a.active span,
-.fp-slidesNav.bottom li a span {
-  background-color: #C5B085;
-  height: 30px;
-  width: 30px;
-  bottom: 150px;
-  text-decoration: none;
-}
 /*END OF NAVBARS*/
 
 /*HAMBURGER MENU*/
@@ -106,7 +78,7 @@ a:hover
   left: -5px;
   cursor: pointer;
   opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  z-index: 1; /* and place it over the hamburger */
   -webkit-touch-callout: none;
 }
 
@@ -218,6 +190,8 @@ a:hover
     width: 100vw;
   }
 }
+
+
 
 /*TOP LEFT CORNER LOGO */
 
@@ -622,35 +596,96 @@ a:hover
   background-color: #66DCBB;
   animation: scroll-indicator-animation 1.2s infinite cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
+@media screen and (max-width:320px) {
+  .scroll-indicatorPageFive {
+    height: 150px;
+  }
+  .bottomPageFive {
+    height: 15vh;
+  }
+}
 
 /*END OF PAGE 5*/
 
-/*PAGE 6*/
+/*PAGE 6 SLIDE 1*/
 
-.wrapperPage_6 {
-  background-color: black;
+.small_h6 {
+  font-size: 15px;
+
+}
+
+
+.wrapperPageText_6 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-direction: column;
   font-family: "ArcaMajora3";
   font-size: 35px;
   font-weight: bold;
   letter-spacing: 4px;
+  height: 60vh;
+  width: 80vw;
+}
+
+.h1_big {
+  font-size: 35px;
+  color: #C5B085;
   line-height: 50px;
+}
+
+.wrapperPage_6 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
-.payforChangeBox {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
+.payforChangeBoxPage6 {
+  position: absolute;
+  bottom: 20vh;
   color: #66DCBB;
   font-family: "ArcaMajora3";
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 5px;
-  line-height: 50px;
+}
+
+/*SLIDE 2*/
+
+.shop_background {
+  background-image: url(../../../images/landingpage_mobile/mobile_shop.png);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+.thrivelogoTextp6 {
+  position: relative;
+  display: flex;
+  background-image: url(../../../design/Logotype_symbols/Thrive_logo_gold.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-self: center;
+  margin: 0 auto;
+  height: 45px;
+  width: 289px;
+  z-index: 1;
+}
+
+.rectangleLeft {
+  position: absolute;
+  margin-top: 10vh;
+  height: 69px;
+  width: 173px;
+  z-index: 1;
+  background-color: rgba(16,224,185,0.7);
 }
 
 /*END OF PAGE 6*/
