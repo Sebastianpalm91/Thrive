@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/customize.css">
   <link rel="stylesheet" href="css/jquery.fullPage.css">
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/jquery.fullPage.min.js"></script>
-  <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
 </head>
-
 <body>
-
   <!-- MENU BELOW -->
   <div class="fixedPosition">
     <nav role="navigation">
@@ -38,14 +32,12 @@
     </nav>
   </div>
   <!-- END OF MENU -->
-
   <a href="#" style="none"><div class="topleftCornerLogo"></div></a>
-  <!-- TODO GET RID OF ALL UNESSESARY CODE IN BOOTSTRAP ETC. -->
-
+  <!-- TODO GET THE ANCHOR TAG TO DECIDED WORDS, ALSO MAKE WOW ANIMATION FKING WORK... -->
   <div id="wrapper">
     <!-- MAIN PAGE 1 -->
     <div class="section">
-      <div class="thrivelogoText"></div>
+      <div class="wow pulse thrivelogoText"></div>
       <div class="payforChangeBoxMain"><h5>#PAY4CHANGE</h5></div>
       <div class="jumbotron start text-center"></div>
       <div class="jumbotron start text-center-page2"></div>
@@ -55,9 +47,9 @@
     <!-- PAGE 2 -->
     <div class="section">
       <div class="bgpageTwo">
-        <div class="bgpageBlack" >
-          <div class="thrivelogoText_p2"></div>
-          <div class="wraplogo_text">
+        <div class="wow fadeInLeft bgpageBlack" data-wow-delay="2s">
+          <div class="wow fadeIn thrivelogoText_p2"></div>
+          <div class="wow fadeIn wraplogo_text">
             <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong>sustainable,<br> environmental</strong> and <strong> <br>ethical production.</strong><br>
               <br>Our core values are<br>at <strong>heart</strong> of our<br>decision making.</p>
             </div>
@@ -69,7 +61,7 @@
 
       <div class="section">
         <div class="wrapperPage_3">
-          <h1 class="textPageThree">WE ARE<br>THE <strong class="">FIRST</strong></h1>
+          <h1 class="textPageThree">WE ARE<br>THE <strong class="wow pulse" data-wow-delay="5s">FIRST</strong></h1>
           <div class="peta_logo"></div>
           <h1 class="textPageThreeSmall">STORE<br>IN SWEDEN</h1>
         </div>
@@ -77,59 +69,34 @@
       </div>
 
       <!-- PAGE 4 WITH 3 SLIDERS -->
+      <div class="section">
+        <div class="slide">
+          <div class="wrapperPage_4">
+            <div class="wind_logo"></div>
+            <div class="textWrapper"><h1 class="headerBox">"<strong class="wow pulse">SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
+          </div>
+        </div>
+        <div class="bottomIndicator"><div class="scroll-indicator"><div class="inner"></div></div></div>
 
-      <!-- <div class="slide">
-      <div class="wrapperPage_4">
-      <div class="wind_logo"></div>
-      <div class="textWrapper"><h1 class="headerBox">"<strong>SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
-    </div>
-  </div>
-  <div class="bottomIndicator"><div class="scroll-indicator"><div class="inner"></div></div></div>
-  SLIDE 2
-  <div class="slide">
-  <div class="wrapperPage_4">
-  <div class="water_logo"></div>
-  <div class="textWrapper"><h1 class="headerBox">"CLOTHES OF <strong>CHANGE</strong>"</h1><p class="slide_pageText">When you purchase our products you are actively making the world a better place – for the workers, yourself and the environment.</div></p>
-</div>
-</div>
-SLIDE 3
-<div class="slide">
-<div class="wrapperPage_4">
-<div class="fire_logo"></div>
-<div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong>LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
-</div>
-</div> -->
+        <div class="slide">
+          <div class="wrapperPage_4">
+            <div class="water_logo"></div>
+            <div class="textWrapper"><h1 class="headerBox">"CLOTHES OF <strong class="wow pulse">CHANGE</strong>"</h1><p class="slide_pageText">When you purchase our products you are actively making the world a better place – for the workers, yourself and the environment.</div></p>
+          </div>
+        </div>
 
-
-<div class="section">
-  <div class="slide">
-    <div class="wrapperPage_4">
-      <div class="wind_logo"></div>
-      <div class="textWrapper"><h1 class="headerBox">"<strong>SUSTAINABLE</strong> TO THE CORE"</h1><p class="slide_pageText">Our core values are at heart of our decision making. Animals, people and environment come first. Nothing, no one, is left behind.</div></p>
-    </div>
-  </div>
-  <div class="bottomIndicator"><div class="scroll-indicator"><div class="inner"></div></div></div>
-
-  <div class="slide">
-    <div class="wrapperPage_4">
-      <div class="water_logo"></div>
-      <div class="textWrapper"><h1 class="headerBox">"CLOTHES OF <strong>CHANGE</strong>"</h1><p class="slide_pageText">When you purchase our products you are actively making the world a better place – for the workers, yourself and the environment.</div></p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="wrapperPage_4">
-      <div class="fire_logo"></div>
-      <div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong>LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
-    </div>
-  </div>
-</div>
-
+        <div class="slide">
+          <div class="wrapperPage_4">
+            <div class="fire_logo"></div>
+            <div class="textWrapper"><h1 class="headerBox">"GET IT WHILE IT <strong class="wow pulse">LASTS</strong>"</h1><p class="slide_pageText">All of our collections are carefully selected, unique and limited edition.</div></p>
+          </div>
+        </div>
+      </div>
       <!-- PAGE 5 -->
       <div class="section">
         <div class="bgpageFive">
-          <div class="bgpageBlackRight">
-            <p class="main_landingpageTextPage5">WE
+          <div class="wow slideInDown bgpageBlackRight" data-wow-delay="1s">
+            <p class="wow fadeIn main_landingpageTextPage5" data-wow-delay="1.5s">WE
               WANT<strong>YOU
               </strong> TO<br><strong>SPREAD</strong>
               THE<strong>WORD</strong><br></p>
@@ -143,68 +110,68 @@ SLIDE 3
           <div class="slide">
             <div class="wrapperPage_6">
               <div class="wrapperPageText_6">
-
-              <h6 class="small_h6">POSITION</h6>
-              <h1 class="h1_big">YOURSELF</h1>
-              <h6 class="small_h6">ON THE</h6>
-              <h1 class="h1_big"><strong>FRONTLINE</strong></h1>
-              <h6 class="small_h6">OF <strong class="h1_big">CHANGE.</strong></h6>
-              <div class="bottomIndicator_horizontal"><div class="scroll-indicator-horizontal"><div class="inner"></div></div></div>
+                <h6 class="small_h6">POSITION</h6>
+                <h1 class="h1_big">YOURSELF</h1>
+                <h6 class="small_h6">ON THE</h6>
+                <h1 class="h1_big"><strong class="pulse" data-wow-delay="1s">FRONTLINE</strong></h1>
+                <h6 class="small_h6">OF <strong class="h1_big">CHANGE.</strong></h6>
+                <div class="bottomIndicator_horizontal"><div class="scroll-indicator-horizontal"><div class="inner"></div></div></div>
+              </div>
+              <div class="payforChangeBoxPage6"><h5>#PAY4CHANGE</h5></div>
             </div>
-            <div class="payforChangeBoxPage6"><h5>#PAY4CHANGE</h5></div>
-            </div>
-
           </div>
           <!-- SLIDE 2 -->
           <div class="slide">
-
-            <div class="rectangleLeft">
+            <div class="wow slideInLeft rectangleLeft" data-wow-delay="1s">
               <h1 class="white_h1">SHOP<br>MASCULIN</h1>
             </div>
-            <div class="rectangleRight">
+            <div class="wow slideInRight rectangleRight" data-wow-delay="2s">
               <h1 class="white_h1">SHOP<br>FEMININE</h1>
             </div>
             <div class="wrapperPage_6Slide2">
-            <div class="thrivelogoTextp6"></div>
-            <div class="shop_background"></div>
-          </div>
-
+              <div class="thrivelogoTextp6"></div>
+              <div class="shop_background"></div>
+            </div>
           </div>
         </div>
+      </div>
 
-  </div>
+      <!-- SET TRUE OR FALSE DEPENDING ON WHAT FEATURES YOU WANT/NEED -->
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('#wrapper').fullpage(
+          {
+            slidesNavigation: false,
+            navigation: false,
+            controlArrows: true,
+            autoScrolling: true,
+            fitToSection: true,
+            loopHorizontal: false,
+            setAllowScrolling: false,
+            anchors: ['.fp-viewing-5-0'],
+            afterRender: function(){
+              $('#fp-nav').hide();
+            },
 
-<!-- SET TRUE OR FALSE DEPENDING ON WHAT FEATURES YOU WANT/NEED -->
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $('#wrapper').fullpage(
-      {
-        slidesNavigation: false,
-        navigation: false,
-        controlArrows: true,
-        autoScrolling: true,
-        fitToSection: true,
-        loopHorizontal: false,
-        setAllowScrolling: false,
-        anchors: ['.fp-viewing-5-0'],
-        afterRender: function(){
-  $('#fp-nav').hide();
-  },
+            afterLoad: function(anchor, index){
+              if(index == 1){
+                $('#fp-nav').fadeOut();
+              }
+              // else{
+              // $('#fp-nav').fadeIn();
+              // }
+            }
 
-  afterLoad: function(anchor, index){
-    if(index == 1){
-  $('#fp-nav').fadeOut();
-  }
-  // else{
-  // $('#fp-nav').fadeIn();
-  // }
-  }
+          }
 
-      }
+        );
+      });
 
-    );
-  });
+      </script>
+      <script src="js/wow.min.js"></script>
+      <script>
+      new WOW().init();
 
-  </script>
-</body>
-  </html>
+      </script>
+  </body>
+</html>

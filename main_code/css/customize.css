@@ -6,13 +6,14 @@
 
 */
 /*FOR GREEN TEXT THRUOUT THE PAGE*/
+.wow {
+visibility: visible !important;
+}
+
 body.fp-viewing-5-0 #fp-nav{
     display:none;
 }
 
-body {
-  margin-bottom: 1px;
-}
 strong {
   color: #66DCBB;
 }
@@ -21,7 +22,7 @@ strong {
 * {
   color: #C5B085;
   font-family: 'ArcaMajora3';
-  margin: 0;
+  margin: 0.01px;
 }
 
 h5{
@@ -365,6 +366,7 @@ input:hover {
 /* PAGE 2*/
 
 .bgpageBlack {
+  margin-top: 0.01px;
   background-color: rgba(18, 17, 17, 0.7);
   width: 61vw;
   height: 100vh;
