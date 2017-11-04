@@ -123,7 +123,7 @@ a:hover
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(35deg) translate(-2px, -1px);
+  transform: rotate(34deg) translate(-2px, -1px);
   background: #66DCBB;
 }
 
@@ -142,7 +142,7 @@ a:hover
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
-  transform: rotate(-35deg) translate(0, -1px);
+  transform: rotate(-34deg) translate(0, -1px);
 }
 
 /*
