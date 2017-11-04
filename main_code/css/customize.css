@@ -92,18 +92,19 @@ a:hover
 #menuToggle span
 {
   display: block;
-  width: 33px;
-  height: 4px;
+  width: 32px;
+  height: 2px;
   margin-bottom: 5px;
   position: relative;
   background: #C5B085;
-  border-radius: 3px;
+  border-radius: 0px;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
   background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
   opacity 0.55s ease;
 }
+
 
 #menuToggle span:first-child
 {
@@ -122,7 +123,7 @@ a:hover
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(35deg) translate(-2px, -1px);
   background: #66DCBB;
 }
 
@@ -141,7 +142,7 @@ a:hover
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-35deg) translate(0, -1px);
 }
 
 /*
@@ -155,7 +156,7 @@ a:hover
   height: 110vh;
   margin: -100px 0 0 0;
   padding-top: 180px;
-  padding-right: 41px;
+  padding-left: 0px;
   right: 0px;
   text-align: center;
   background: #000000;
@@ -188,6 +189,10 @@ a:hover
   opacity: 1;
 }
 
+input:hover {
+  background-color: black;
+}
+
 @media screen and (max-width: 768px) {
   #menu
   {
@@ -209,6 +214,9 @@ a:hover
   height: 33px;
   width: 32px;
   z-index: 1;
+}
+.topleftCornerLogo:hover {
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_symbol_blackforest.svg);
 }
 /*END OF CORNER LOGO*/
 
@@ -263,6 +271,7 @@ a:hover
   animation-duration: 18s;
   animation-iteration-count: infinite;
   z-index: 0;
+  transition: 0.2s ease-out;
 }
 .jumbotron.start.text-center-page2 {
   background-image: url('../../../../images/landingpage_mobile/mobile_02.png');
@@ -298,6 +307,19 @@ a:hover
   33.333% { opacity: 0}
   66.666% { opacity: 1}
   100% { opacity: 0}
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron.start.text-center {
+    background-image: url(../../../../images/landingpage_desktop/Desktop_photo_tjej_lund.png);
+  }
+  .jumbotron.start.text-center-page2 {
+    background-image: url(../../../../images/landingpage_desktop/Desktop_photo_kille_sv.png);
+  }
+  .jumbotron.start.text-center-page3 {
+    background-image: url(../../../../images/landingpage_desktop/Desktop_photo_tjej_berlin_sv.png);
+  }
+
 }
 
 /*END OF FADING IN START PAGE*/
@@ -553,7 +575,7 @@ a:hover
 /*PAGE 5*/
 
 .bgpageFive {
-  background-image: url(../../../../images/landingpage_desktop/cirkus_desk.png);
+  background-image: url(../../../../images/landingpage_mobile/cirkus.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -608,6 +630,11 @@ a:hover
     height: 15vh;
   }
 }
+@media screen and (min-width: 768px) {
+  .bgpageFive {
+    background-image: url(../../../../images/landingpage_desktop/cirkus_desk.png);
+  }
+}
 
 /*END OF PAGE 5*/
 
@@ -655,6 +682,38 @@ a:hover
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+.bottomIndicator_horizontal {
+    position: absolute;
+    bottom: 17vh;
+    left: 25%;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+
+.scroll-indicator-horizontal {
+  width: 150px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.68);
+  overflow: hidden;
+}
+
+.scroll-indicator-horizontal > .inner {
+  background-color: #66DCBB;
+  animation: scroll-indicator-animation-horizontal 1.2s infinite ease-out;
+}
+
+
+@keyframes scroll-indicator-animation-horizontal {
+  0% {
+    transform: translateX(-100%);
+    height: -100%;
+  }
+  100% {
+    transform: translateX(100%);
+    height: 100%;
+  }
 }
 
 /*SLIDE 2*/
@@ -717,5 +776,21 @@ a:hover
   margin-top: 80vh;
   right: 0.01px;
 }
+
+.rectangleLeft:hover,
+.rectangleRight:hover {
+  background-color: rgba(18,17,17,0.6);
+}
+
+@media screen and (min-width: 768px) {
+  .rectangleLeft,
+  .rectangleRight {
+    height: 15vh;
+    width: 10%;
+  }
+
+}
+
+
 
 /*END OF PAGE 6*/

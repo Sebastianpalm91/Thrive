@@ -39,7 +39,7 @@
   </div>
   <!-- END OF MENU -->
 
-  <div class="topleftCornerLogo"></div>
+  <a href="#" style="none"><div class="topleftCornerLogo"></div></a>
   <!-- TODO GET RID OF ALL UNESSESARY CODE IN BOOTSTRAP ETC. -->
 
   <div id="wrapper">
@@ -55,7 +55,7 @@
     <!-- PAGE 2 -->
     <div class="section">
       <div class="bgpageTwo">
-        <div class="wow fadeInLeft bgpageBlack" >
+        <div class="bgpageBlack" >
           <div class="thrivelogoText_p2"></div>
           <div class="wraplogo_text">
             <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong>sustainable,<br> environmental</strong> and <strong> <br>ethical production.</strong><br>
@@ -69,7 +69,7 @@
 
       <div class="section">
         <div class="wrapperPage_3">
-          <h1 class="textPageThree">WE ARE<br>THE <strong class="wow pulse">FIRST</strong></h1>
+          <h1 class="textPageThree">WE ARE<br>THE <strong class="">FIRST</strong></h1>
           <div class="peta_logo"></div>
           <h1 class="textPageThreeSmall">STORE<br>IN SWEDEN</h1>
         </div>
@@ -149,17 +149,19 @@ SLIDE 3
               <h6 class="small_h6">ON THE</h6>
               <h1 class="h1_big"><strong>FRONTLINE</strong></h1>
               <h6 class="small_h6">OF <strong class="h1_big">CHANGE.</strong></h6>
+              <div class="bottomIndicator_horizontal"><div class="scroll-indicator-horizontal"><div class="inner"></div></div></div>
             </div>
             <div class="payforChangeBoxPage6"><h5>#PAY4CHANGE</h5></div>
             </div>
+
           </div>
           <!-- SLIDE 2 -->
           <div class="slide">
 
-            <div class="wow fadeInDown rectangleLeft">
+            <div class="rectangleLeft">
               <h1 class="white_h1">SHOP<br>MASCULIN</h1>
             </div>
-            <div class="wow fadeInRight rectangleRight">
+            <div class="rectangleRight">
               <h1 class="white_h1">SHOP<br>FEMININE</h1>
             </div>
             <div class="wrapperPage_6Slide2">
@@ -177,12 +179,26 @@ SLIDE 3
   $(document).ready(function() {
     $('#wrapper').fullpage(
       {
-        slidesNavigation: true,
+        slidesNavigation: false,
         navigation: false,
-        controlArrows: false,
+        controlArrows: true,
         autoScrolling: true,
-        fitToSection: true
+        fitToSection: true,
+        loopHorizontal: false,
+        setAllowScrolling: false,
+        anchors: ['.fp-viewing-5-0'],
+        afterRender: function(){
+  $('#fp-nav').hide();
+  },
 
+  afterLoad: function(anchor, index){
+    if(index == 1){
+  $('#fp-nav').fadeOut();
+  }
+  // else{
+  // $('#fp-nav').fadeIn();
+  // }
+  }
 
       }
 
