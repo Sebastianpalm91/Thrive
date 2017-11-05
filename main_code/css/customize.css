@@ -54,6 +54,8 @@ a
 {
   text-decoration: none;
   color: #373737;
+  letter-spacing: 5px;
+  font-size: 22px;
   transition: color 0.3s ease;
 }
 
@@ -156,7 +158,7 @@ a:hover
   width: 30vw;
   height: 110vh;
   margin: -100px 0 0 0;
-  padding-top: 180px;
+  padding-top: 200px;
   padding-left: 0px;
   right: 0px;
   text-align: center;
@@ -420,7 +422,7 @@ input:hover {
 
 @media screen and (max-width: 320px) {
   .main_landingpageText {
-    padding-left: 40px;
+    padding-left: 30vw;
     width: 70vw;
   }
 
@@ -439,16 +441,15 @@ input:hover {
   }
 }
 @media screen and (min-width: 737px) {
-  .main_landingpageText {
-    padding-left: 20vw;
-  }
+
   .thrivelogoText_p2 {
     height: 10vh;
   }
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1024px) {
   .main_landingpageText {
     padding-top: 10%;
+    padding-left: 50vw
   }
   .bgpageBlack {
     padding-top: 15vh;
