@@ -13,8 +13,16 @@ Anchor länkar fungerar ej.
 */
 /*FOR GREEN TEXT THRUOUT THE PAGE*/
 
-body.fp-viewing-5-0 #fp-nav{
-    display:none!important;
+body.fp-viewing-3-0 .fp-controlArrow
+{
+  display: none;
+}
+
+
+body.fp-viewing-5-0 .fp-slidesNav.bottom,
+body.fp-viewing-5-1 .fp-slidesNav.bottom
+{
+    display:none;
 }
 .strong {
   color: #66DCBB;
@@ -367,7 +375,7 @@ input:hover {
   z-index: 1;
   font-size: 3.5vh;
   font-family: 'ArcaMajora3' normal;
-  letter-spacing: 2vw;
+  letter-spacing: 5px;
 }
 
 /*END OF THRIVE LOGO TEXT*/
@@ -563,6 +571,7 @@ input:hover {
   align-items: center;
   height: 100vh;
   padding-bottom: 20vh;
+  letter-spacing: 5px;
 }
 
 @media screen and (min-width: 737px) {
@@ -611,6 +620,21 @@ input:hover {
   text-align: center;
   padding-top: 17vh;
 }
+
+
+.small_h6_page5{
+  font-size: 22px;
+  display: inline-block;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.h1_big_page5 {
+  color: #66DCBB;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
 /*SCROLL INDICATOR FOR PAGE 5*/
 .bottomPageFive {
   position: absolute;
@@ -655,7 +679,7 @@ input:hover {
 
 .small_h6 {
   font-size: 15px;
-
+  display: inline-block;
 }
 
 

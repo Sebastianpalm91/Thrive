@@ -17,8 +17,8 @@
   $isAnimatedSeventhSingle = $('.seventh .is-animated__single'),
   $isAnimatedEigth = $('.eigth .is-animated'),
   $isAnimatedEigthSingle = $('.eigth .is-animated__single'),
-  $isAnimatedNineth = $('.nineth .is-animated'),
-  $isAnimatedNinethSingle = $('.nineth .is-animated__single'),
+  $isAnimatedNinth = $('.ninth .is-animated'),
+  $isAnimatedNinthSingle = $('.ninth .is-animated__single'),
   $isAnimatedTenth = $('.tenth .is-animated'),
   $isAnimatedTenthSingle = $('.tenth .is-animated__single');
 
@@ -34,7 +34,7 @@
     loopHorizontal: false,
     setAllowScrolling: false,
 
-    onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
+    onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
       console.log(index, direction, slideIndex);
     var leavingSlide = $(this);
 
@@ -44,6 +44,12 @@
 
     if(index == 4 && slideIndex == 1){
         $isAnimatedSixthSingle.addClass('animated pulse').css('animation-delay', '1s');
+    }
+    if(index == 6 && slideIndex == 0){
+      $isAnimatedNinth.addClass('animated slideInLeft');
+      $isAnimatedNinth.eq(0).css('animation-delay', '0.5s');
+      $isAnimatedNinthSingle.addClass('animated slideInRight').css('animation-delay', '0.5s');
+
     }
 },
     onLeave: function(index, nextIndex, slideIndex) {
@@ -66,12 +72,12 @@
         $isAnimatedSeventh.eq(0).css('animation-delay', '1s');
         $isAnimatedSeventhSingle.addClass('animated fadeIn').css('animation-delay', '2s');
       }
-      if (index == 6 && nextIndex == 7) {
+      if (index == 5) {
         $isAnimatedEigthSingle.addClass('animated pulse').css('animation-delay', '1s');
       }
-      if (index == 7 && nextIndex == 8) {
-
-      }
+      // if (index == 6) {
+      //     $isAnimatedNinthSingle.addClass('animated pulse').css('animation-delay', '1s');
+      // }
 
       if (index == 11 && nextIndex == 12) {
         $isAnimatedThirdSingle.addClass('animated fadeIn').css('animation-delay', '1s');
