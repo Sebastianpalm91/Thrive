@@ -1,17 +1,24 @@
 /*COLORS
 
 
+Be om hjälp med följande:
+Navigationsknapperna.bottom och dölja på specifik sida.
+Animationerna fungerar ej som de ska.
+Anchor länkar fungerar ej.
+
+
 #66DCBB  GREEN
 #C5B085  GOLD
 
 */
 /*FOR GREEN TEXT THRUOUT THE PAGE*/
-.wow {
-visibility: visible !important;
-}
 
 body.fp-viewing-5-0 #fp-nav{
-    display:none;
+    display:none!important;
+}
+.strong {
+  color: #66DCBB;
+  display: inline-block;
 }
 
 strong {
@@ -608,7 +615,6 @@ input:hover {
 .bottomPageFive {
   position: absolute;
   bottom: 100px;
-  left: 69.5vw;
   right: 30.5vw;
   height: 25vh;
   z-index: 2;
@@ -760,7 +766,7 @@ input:hover {
   align-items: center;
   padding-top: 5px;
   height: 10vh;
-  width: 25%;
+  width: 45vw;
   background-color: rgba(16,224,185,0.7);
   color: #FFFFFF;
   font-family: "Arca Majora 3";
@@ -785,12 +791,31 @@ input:hover {
   background-color: rgba(18,17,17,0.6);
 }
 
-@media screen and (min-width: 768px) {
-  .rectangleLeft,
-  .rectangleRight {
-    height: 15vh;
-    width: 10%;
+@media screen and (min-width: 1024px) {
+  .shop_background {
+    background-image: url(../../../../images/landingpage_desktop/Shop_desk.png);
+
   }
+  .rectangleLeft {
+    margin-top: 70vh;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .rectangleRight {
+    margin-top: 70vh;
+  }
+
+}
+
+@media screen and (min-width: 1399px) {
+  .rectangleRight,
+  .rectangleLeft {
+    width: 20vw;
+    height: 15vh;
+  }
+
 
 }
 
