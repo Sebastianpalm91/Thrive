@@ -169,7 +169,7 @@ a:hover
   padding-left: 0px;
   right: 0px;
   text-align: center;
-  background: #000000;
+  background: #121212;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -615,7 +615,7 @@ input:hover {
 .bottomPageFive {
   position: absolute;
   bottom: 100px;
-  right: 30.5vw;
+  right: 22vw;
   height: 25vh;
   z-index: 2;
   transform: translateX(-50%);
@@ -643,7 +643,11 @@ input:hover {
   .bgpageFive {
     background-image: url(../../../../images/landingpage_desktop/cirkus_desk.png);
   }
+  .bgpageBlackRight {
+    margin-left: 55vw;
+  }
 }
+
 
 /*END OF PAGE 5*/
 
