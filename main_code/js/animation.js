@@ -93,3 +93,23 @@
   });
 
 })(jQuery);
+
+const buttonLeft = document.querySelector('.rectangleLeft');
+const buttonRight = document.querySelector('.rectangleRight');
+const buttonIcon = document.querySelector('.topleftCornerLogo');
+const backgroundElementLeft = document.querySelector('.background-classLeft');
+const backgroundElementRight = document.querySelector('.background-classRight');
+const backgroundElementIcon = document.querySelector('.background-classIcon');
+
+buttonLeft.addEventListener('click', function() {
+  backgroundElementLeft.style.backgroundColor = '#C5B085'; // byt färg på elementet
+       location.href = "http://www.thrivestore.se/maskulint-herr";
+})
+buttonRight.addEventListener('click', function() {
+  backgroundElementRight.style.backgroundColor = '#C5B085'; // byt färg på elementet
+       location.href = "http://www.thrivestore.se/feminint-dam";
+})
+buttonIcon.addEventListener('click', function() {
+  backgroundElementIcon.style.backgroundColor = '#C5B085'; // byt färg på elementet
+       location.href = "http://www.thrivestore.se";
+})

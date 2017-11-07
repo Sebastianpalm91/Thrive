@@ -181,6 +181,7 @@ input:hover {
   height: 33px;
   width: 32px;
   z-index: 1;
+
 }
 .topleftCornerLogo:hover {
   background-image: url(../../../../design/Logotype_symbols/Thrive_logo_symbol_blackforest.svg);
