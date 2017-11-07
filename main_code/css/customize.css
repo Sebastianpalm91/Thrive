@@ -35,13 +35,21 @@ strong {
 
 */
 
-body.fp-viewing-3-0 .fp-controlArrow {
-  display: none;
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+  border-color: #C5B085;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
-/*HIDE NAVBAR ON A SPECIFIC INDEX*/
+
+/*HIDE NAVBAR/CONTROLARROW ON A SPECIFIC INDEX*/
 body.fp-viewing-5-0 .fp-slidesNav.bottom,
 body.fp-viewing-5-1 .fp-slidesNav.bottom {
   display:none;
+}
+body.fp-viewing-3-0 .fp-controlArrow.fp-next {
+  display: none!important;
 }
 /*HAMBURGER MENU*/
 .positionFixed {
