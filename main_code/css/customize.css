@@ -23,7 +23,14 @@ p {
 strong {
   color: #66DCBB;
 }
+.helvetica_p2 {
+  font-family: Helvetica Neue;
+}
 
+.citat {
+  font-family: Helvetica;
+  display: inline-block;
+}
 @font-face {
   font-family: 'ArcaMajora3'; /*a name to be used later*/
   src: url('../../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
@@ -48,9 +55,9 @@ body.fp-viewing-5-0 .fp-slidesNav.bottom,
 body.fp-viewing-5-1 .fp-slidesNav.bottom {
   display:none;
 }
-body.fp-viewing-3-0 .fp-controlArrow.fp-next {
+/*body.fp-viewing-3-0 .fp-controlArrow.fp-next {
   display: none!important;
-}
+}*/
 /*HAMBURGER MENU*/
 .positionFixed {
   position: fixed;
@@ -426,6 +433,8 @@ input:hover {
 
 .headerBox, h1{
   transition: 1s ease-out;
+  display: inline-block;
+
 }
 
 .textWrapper {
@@ -718,9 +727,11 @@ input:hover {
 @media screen and (max-width: 414px) {
   .headerBox, h1 {
     font-size: 25px;
+    display: inline;
   }
   .slide_pageText {
-    width: 50vw;
+    width: 66vw;
+    height: 10vh;
     padding-top: 1vh;
   }
 }
