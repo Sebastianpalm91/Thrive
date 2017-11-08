@@ -102,11 +102,11 @@ const backgroundElementRight = document.querySelector('.background-classRight');
 const backgroundElementIcon = document.querySelector('.background-classIcon');
 
 buttonLeft.addEventListener('click', function() {
-  backgroundElementLeft.style.backgroundColor = '#C5B085'; // byt färg på elementet
+  backgroundElementLeft.style.backgroundColor = 'rgba(19, 133, 111, 0.91)'; // byt färg på elementet
        location.href = "http://www.thrivestore.se/maskulint-herr";
 })
 buttonRight.addEventListener('click', function() {
-  backgroundElementRight.style.backgroundColor = '#C5B085'; // byt färg på elementet
+  backgroundElementRight.style.backgroundColor = 'rgba(19, 133, 111, 0.91)'; // byt färg på elementet
        location.href = "http://www.thrivestore.se/feminint-dam";
 })
 buttonIcon.addEventListener('click', function() {
