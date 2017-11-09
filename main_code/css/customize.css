@@ -1,15 +1,6 @@
-body {
-  padding-bottom: 80px
-}
-
-.cover {
-     height: 100%;
- }
-
 * {
   color: #C5B085;
   font-family: 'ArcaMajora3';
-  margin: 0.01px;
 }
 
 h5{
