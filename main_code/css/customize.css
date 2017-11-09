@@ -717,17 +717,21 @@ rgba(18,17,17,0.6)*/
     padding-left: 15px;
     font-size: 24px;
     letter-spacing: 2px;
-    line-height: 40px;
   }
 }
 @media screen and (max-width: 599px) {
   .main_landingpageText {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 737px) {
   .thrivelogoText_p2 {
     height: 10vh;
+  }
+  .main_landingpageText {
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
