@@ -28,7 +28,7 @@ strong {
 }
 
 .citat {
-  font-family: Helvetica;
+  font-family: Helvetica Neue;
   display: inline-block;
 }
 
@@ -41,8 +41,8 @@ strong {
 .fp-controlArrow.fp-prev {
   border-color: #C5B085;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
 }
 
 /*HIDE NAVBAR/CONTROLARROW ON A SPECIFIC INDEX*/
@@ -98,7 +98,7 @@ a {
   display: block;
   width: 32px;
   height: 2px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   position: relative;
   background: #C5B085;
   border-radius: 0px;
@@ -120,7 +120,7 @@ a {
 /* Transform all the slices of hamburger into a crossmark.*/
 #menuToggle input:checked ~ span {
   opacity: 1;
-  transform: rotate(34deg) translate(-2px, -1px);
+  transform: rotate(52deg) translate(-2px, -1px);
   background: #66DCBB;
 }
 
@@ -133,7 +133,7 @@ a {
 /* Ohyeah and the last one should go the other direction */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   opacity: 1;
-  transform: rotate(-34deg) translate(0, -1px);
+  transform: rotate(-52deg) translate(0px, -1px);
 }
 
 /* Make this absolute positioned at the top left of the screen */
@@ -356,6 +356,12 @@ input:hover {
   flex-direction: column;
   align-items: center;
   text-align: left;
+}
+
+@media screen and (max-width: 414px) {
+  .bgpageTwo {
+    background-image: url(../../../../images/landingpage_mobile/core_girl.png);
+  }
 }
 
 /*PAGE 3*/
@@ -648,7 +654,7 @@ input:hover {
   padding-top: 5px;
   height: 10vh;
   width: 45vw;
-  background-color: rgba(16,224,185,0.7);
+  background-color: rgba(16,224,185,0.7);;
   color: #FFFFFF;
   font-family: "Arca Majora 3";
   font-size: 18px;
@@ -669,7 +675,7 @@ input:hover {
 
 .rectangleLeft:hover,
 .rectangleRight:hover {
-  background-color: rgba(19, 195, 162, 0.7);
+  background-color: rgba(95,223,200,0.7);;
 }
 /*rgba(19, 133, 111, 0.91)
 rgba(19, 195, 162, 0.7)
@@ -709,6 +715,9 @@ rgba(18,17,17,0.6)*/
 @media screen and (min-width: 370px) {
   .main_landingpageText {
     padding-left: 15px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 40px;
   }
 }
 @media screen and (max-width: 599px) {
@@ -721,10 +730,12 @@ rgba(18,17,17,0.6)*/
     height: 10vh;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .main_landingpageText {
     padding-top: 10%;
-    padding-left: 50vw
+    padding-left: 64vw;
+    font-size: 15px;
+    line-height: 30px;
   }
   .bgpageBlack {
     padding-top: 15vh;
