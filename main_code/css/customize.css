@@ -45,6 +45,11 @@ strong {
   width: 20px;
 }
 
+.fp-controlArrow.fp-next:hover,
+.fp-controlArrow.fp-prev:hover {
+  border-color: #66DCBB;
+}
+
 /*HIDE NAVBAR/CONTROLARROW ON A SPECIFIC INDEX*/
 body.fp-viewing-5-0 .fp-slidesNav.bottom,
 body.fp-viewing-5-1 .fp-slidesNav.bottom {
@@ -79,6 +84,10 @@ a {
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
+}
+
+#menuToggle input:hover {
+  background-color: #66DCBB;
 }
 
 #menuToggle input {
@@ -192,7 +201,7 @@ input:hover {
 }
 
 .topleftCornerLogo:hover {
-  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_symbol_blackforest.svg);
+  background-image: url(../../../../design/Logotype_symbols/Thrive_logo_symbol_gold.svg);
 }
 
 /*SCROLL INDICATOR*/
@@ -305,6 +314,10 @@ input:hover {
   font-size: 3.5vh;
   font-family: 'ArcaMajora3' normal;
   letter-spacing: 5px;
+}
+
+.payforChangeBoxMain h5:hover{
+  color: #20DDAB;
 }
 
 /* PAGE 2*/
