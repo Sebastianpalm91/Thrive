@@ -40,8 +40,8 @@ function hideAddressBar() {
     slidesNavigation: true,
     navigation: false,
     controlArrows: true,
-    autoScrolling: false,
-    fitToSection: false,
+    autoScrolling: true,
+    fitToSection: true,
     loopHorizontal: false,
     // setAllowScrolling: false,
 

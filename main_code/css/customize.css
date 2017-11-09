@@ -1,6 +1,12 @@
+.cover {
+  height: 100%;
+  padding-bottom: 80px;
+}
+
 * {
   color: #C5B085;
   font-family: 'ArcaMajora3';
+  margin: 0.01px;
 }
 
 h5{
@@ -531,7 +537,7 @@ li.payforChange:hover {
 
 .scroll-indicatorPageFive {
   width: 2px;
-  height: 249px;
+  height: 35vh;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
 }
@@ -602,7 +608,7 @@ li.payforChange:hover {
 }
 
 .scroll-indicator-horizontal {
-  width: 200px;
+  width: 50vw;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
@@ -634,7 +640,7 @@ li.payforChange:hover {
 }
 
 .shop_background {
-  backgro: url(..Background-desk/images/Background-mob/mobile_shop.png);
+  background-image: url(../images/Background-mob/mobile_shop.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
