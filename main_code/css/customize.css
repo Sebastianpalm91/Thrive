@@ -81,14 +81,13 @@ a {
   position: absolute;
   top: 20px;
   right: 20px;
+  height: 40px;
+  width: 40px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
 }
 
-#menuToggle input:hover {
-  background-color: #66DCBB;
-}
 
 #menuToggle input {
   display: block;
@@ -101,6 +100,9 @@ a {
   opacity: 0; /* hide this */
   z-index: 1; /* and place it over the hamburger */
   -webkit-touch-callout: none;
+}
+#menuToggle input:hover {
+  background-color: #66DCBB;
 }
 /* Just a quick hamburger */
 #menuToggle span {
@@ -181,10 +183,6 @@ li.payforChange:hover {
 #menuToggle input:checked ~ ul {
   transform: scale(1.0, 1.0);
   opacity: 1;
-}
-
-input:hover {
-  background-color: black;
 }
 
 /*TOP LEFT CORNER LOGO */
