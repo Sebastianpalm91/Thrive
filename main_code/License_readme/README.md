@@ -1,0 +1,2 @@
+# THRIVE PROJECT
+## GROUP 7

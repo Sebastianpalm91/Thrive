@@ -1,6 +1,10 @@
-html {
-  padding-top: 10px;
+body {
+  padding-bottom: 80px
 }
+
+.cover {
+     height: 100%;
+ }
 
 * {
   color: #C5B085;
@@ -38,7 +42,7 @@ strong {
 
 @font-face {
   font-family: 'ArcaMajora3'; /*a name to be used later*/
-  src: url('../../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
+  src: url('../ArcaMajora3/Webfonts/ArcaMajora3-Bold.woff2'); /*URL to font*/
 }
 
 .fp-controlArrow.fp-next,

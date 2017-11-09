@@ -1,3 +1,14 @@
+function hideAddressBar() {
+  if(!window.location.hash) {
+    if(document.height < window.outerHeight)
+      document.body.style.height = (window.outerHeight + 50) + 'px';
+    setTimeout( function(){
+        window.scrollTo(0, 1);
+        document.body.style.height = 'auto';
+      }, 50 );
+  }
+}
+
 (function($) {
 
   'use strict';
@@ -29,10 +40,11 @@
     slidesNavigation: true,
     navigation: false,
     controlArrows: true,
-    autoScrolling: true,
-    fitToSection: true,
+    autoScrolling: false,
+    fitToSection: false,
     loopHorizontal: false,
-    setAllowScrolling: false,
+    // setAllowScrolling: false,
+
 
     onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
       console.log(index, direction, slideIndex);
