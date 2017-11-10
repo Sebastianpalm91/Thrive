@@ -537,7 +537,7 @@ li.payforChange:hover {
 
 .scroll-indicatorPageFive {
   width: 2px;
-  height: 35vh;
+  height: 249vh;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
 }
@@ -608,7 +608,7 @@ li.payforChange:hover {
 }
 
 .scroll-indicator-horizontal {
-  width: 50vw;
+  width: 200px;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
