@@ -1,3 +1,7 @@
+#wrapper, .section, body, html {
+  height: auto;
+}
+
 * {
   color: #C5B085;
   font-family: 'ArcaMajora3';
