@@ -1,6 +1,6 @@
 .cover {
   height: 100%;
-  padding-bottom: 80px;
+  overflow-y: hidden;
 }
 
 * {
@@ -60,6 +60,7 @@ body.fp-viewing-5-0 .fp-slidesNav.bottom,
 body.fp-viewing-5-1 .fp-slidesNav.bottom {
   display:none;
 }
+
 /*body.fp-viewing-3-0 .fp-controlArrow.fp-next {
   display: none!important;
 }*/
@@ -329,7 +330,6 @@ li.payforChange:hover {
   background-color: rgba(18, 17, 17, 0.7);
   width: 61vw;
   height: 100vh;
-  padding-top: 15vh;
 }
 
 .bgpageTwo {
@@ -372,6 +372,7 @@ li.payforChange:hover {
   flex-direction: column;
   align-items: center;
   text-align: left;
+  padding-top: 15vh;
 }
 
 @media screen and (max-width: 414px) {
@@ -537,7 +538,7 @@ li.payforChange:hover {
 
 .scroll-indicatorPageFive {
   width: 2px;
-  height: 249vh;
+  height: 32vh;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
 }
@@ -616,7 +617,7 @@ li.payforChange:hover {
 
 .scroll-indicator-horizontal > .inner {
   background-color: #66DCBB;
-  animation: scroll-indicator-animation-horizontal 1.2s infinite ease-out;
+  animation: scroll-indicator-animation-horizontal 1.8s infinite ease-out;
 }
 
 @keyframes scroll-indicator-animation-horizontal {
@@ -663,7 +664,8 @@ li.payforChange:hover {
 }
 
 .rectangleLeft,
-.rectangleRight {
+.rectangleRight
+ {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -735,6 +737,7 @@ rgba(18,17,17,0.6)*/
     letter-spacing: 2px;
   }
 }
+
 @media screen and (max-width: 599px) {
   .main_landingpageText {
     font-size: 13px;
@@ -771,13 +774,21 @@ rgba(18,17,17,0.6)*/
 
 @media screen and (max-width: 414px) {
   .headerBox, h1 {
-    font-size: 25px;
+    font-size: 18px;
     display: inline;
   }
   .slide_pageText {
     width: 66vw;
-    height: 10vh;
+    height: 9vh;
     padding-top: 1vh;
+  }
+  .textWrapper {
+    padding-bottom: 5vh;
+  }
+  .wind_logo,
+  .fire_logo,
+  .water_logo {
+    padding-bottom: 5vh;
   }
 }
 
@@ -805,6 +816,12 @@ rgba(18,17,17,0.6)*/
   }
 }
 
+@media screen and (max-width: 414px) {
+  body.fp-viewing-5-1 .fp-controlArrow.fp-prev {
+    display: none;
+  }
+}
+
 /*MEDIA FOR PAGE 6*/
 @media screen and (min-width: 1024px) {
   .shop_background {
@@ -824,5 +841,11 @@ rgba(18,17,17,0.6)*/
   .rectangleLeft {
     width: 20vw;
     height: 15vh;
+  }
+}
+@media screen and (min-width: 413px) and (max-width: 414px) {
+  .rectangleLeft,
+  .rectangleRight {
+    width: 40vw;
   }
 }
