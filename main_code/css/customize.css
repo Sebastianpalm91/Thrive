@@ -771,9 +771,10 @@ rgba(18,17,17,0.6)*/
 
 @media screen and (max-width: 414px) {
   .headerBox, h1 {
-    font-size: 18px;
+    font-size: 25px;
     display: inline;
   }
+
   .slide_pageText {
     width: 66vw;
     height: 9vh;
@@ -844,5 +845,11 @@ rgba(18,17,17,0.6)*/
   .rectangleLeft,
   .rectangleRight {
     width: 40vw;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .white_h1 {
+    font-size: 18px;
   }
 }
