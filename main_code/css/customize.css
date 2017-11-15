@@ -697,6 +697,16 @@ li.payforChange:hover {
 /*rgba(19, 133, 111, 0.91)
 rgba(19, 195, 162, 0.7)
 rgba(18,17,17,0.6)*/
+.footer {
+  margin: 0 auto;
+  font-size: 8px;
+  position: fixed;
+  width: 100%;
+  top: 98vh;
+  text-align: center;
+  color: #C5B085;
+  z-index: 99;
+}
 
 /*MEDIA FOR PAGE 1 AND HAMBURGER MENU*/
 @media screen and (max-width: 768px) {

@@ -1,3 +1,8 @@
+<?php
+$copyYear = 2016; // SETTING WHEN WEB STARTED
+$curYear = date('Y'); //MAKE YEAR UP TO DATE
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,8 +39,10 @@
       </div>
     </nav>
   </div>
+  <footer class="footer"> &copy; <?php echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : 'Copyright.');?> All Rights Reserved</footer>
   <!-- END OF MENU -->
   <a href="#"><div class="topleftCornerLogo background-classIcon"></div></a>
+
   <!-- TODO GET THE ANCHOR TAG TO DECIDED WORDS, ALSO MAKE WOW ANIMATION FKING WORK... -->
   <div id="wrapper" class="fullpage-wrapper">
     <!-- MAIN PAGE 1 -->
