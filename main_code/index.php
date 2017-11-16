@@ -58,8 +58,8 @@ $curYear = date('Y'); //MAKE YEAR UP TO DATE
     <div class="section second">
       <div class="bgpageTwo">
         <div class="is-animated bgpageBlack">
+          <div class="is-animated__single thrivelogoText_p2"></div>
           <div class="is-animated__single wraplogo_text">
-            <div class="is-animated__single thrivelogoText_p2"></div>
             <p class="main_landingpageText">We only work with <br> brands that lead the <br> way in <strong class="helvetica_p2">sustainable,<br> environmental</strong> and <strong class="helvetica_p2"> <br>ethical production.</strong><br>
               <br>Our core values are<br>at <strong class="helvetica_p2">heart</strong> of our<br>decision making.</p>
             </div>

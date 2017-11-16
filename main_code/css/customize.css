@@ -155,8 +155,8 @@ a {
 /* Make this absolute positioned at the top left of the screen */
 #menu {
   position: fixed;
-  width: 30vw;
-  height: 110vh;
+  width: 30%;
+  height: 100%;
   margin: -100px 0 0 0;
   padding-top: 200px;
   padding-left: 0px;
@@ -242,8 +242,8 @@ li.payforChange:hover {
 /*FADING PICTURES IN START PAGE*/
 .jumbotron.start.text-center, .jumbotron.start.text-center-page2, .jumbotron.start.text-center-page3 {
   position: absolute;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
   background-image: url('../images/Background-mob/mobile_01.png');
   background-repeat: no-repeat;
@@ -327,8 +327,8 @@ li.payforChange:hover {
 .bgpageBlack {
   margin-top: 0.01px;
   background-color: rgba(18, 17, 17, 0.7);
-  width: 61vw;
-  height: 100vh;
+  width: 61%;
+  height: 100%;
 }
 
 .bgpageTwo {
@@ -336,8 +336,8 @@ li.payforChange:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   padding-top: 0.1px;
   z-index: 1;
 }
@@ -348,9 +348,11 @@ li.payforChange:hover {
   background-size: contain;
   background-position: center;
   margin: 0 auto;
-  height: 10vh;
-  width: 80vw;
-  margin-left: 10vw;
+  height: 10%;
+  width: 130%;
+  padding-top: 65%;
+  position: absolute;
+  margin-left: 15%;
   z-index: 1;
   transition: 0.8s ease-out;
 }
@@ -371,7 +373,7 @@ li.payforChange:hover {
   flex-direction: column;
   align-items: center;
   text-align: left;
-  padding-top: 15vh;
+  padding-top: 20%;
 }
 
 @media screen and (max-width: 414px) {
@@ -404,8 +406,8 @@ li.payforChange:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -415,8 +417,8 @@ li.payforChange:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 16vh;
-  width: 100vw;
+  height: 16%;
+  width: 100%;
   margin: 22px 0px 20px;
 }
 
@@ -438,8 +440,8 @@ li.payforChange:hover {
   background-size: contain;
   background-position: center;
   opacity: 0.2;
-  height: 80vh;
-  width: 80vw;
+  height: 80%;
+  width: 80%;
   text-align: left;
 }
 
@@ -450,7 +452,7 @@ li.payforChange:hover {
   margin: 0 auto;
   padding-top: 5vh;
   text-align: left;
-  width: 30vw;
+  width: 30%;
 }
 
 .headerBox, h1{
@@ -461,7 +463,7 @@ li.payforChange:hover {
 
 .textWrapper {
   position: absolute;
-  width: 80vw;
+  width: 25%;
   text-align: center;
 }
 
@@ -470,8 +472,8 @@ li.payforChange:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding-bottom: 20vh;
+  height: 100%;
+  width: 100%
   letter-spacing: 5px;
 }
 
@@ -481,15 +483,15 @@ li.payforChange:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   z-index: 1;
 }
 
 .bgpageBlackRight {
   background-color: rgba(18, 17, 17, 0.7);
-  margin-left: 39vw;
-  height: 100vh;
+  margin-left: 39%;
+  height: 100%;
 }
 
 .main_landingpageTextPage5 {
@@ -528,16 +530,16 @@ li.payforChange:hover {
 /*SCROLL INDICATOR FOR PAGE 5*/
 .bottomPageFive {
   position: absolute;
-  bottom: 100px;
+  top: 55%;
   right: 22vw;
-  height: 25vh;
+  height: 35%;
   z-index: 2;
   transform: translateX(-50%);
 }
 
 .scroll-indicatorPageFive {
   width: 2px;
-  height: 32vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
 }
@@ -644,8 +646,8 @@ li.payforChange:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 .thrivelogoTextp6 {
@@ -669,8 +671,8 @@ li.payforChange:hover {
   justify-content: center;
   align-items: center;
   padding-top: 5px;
-  height: 10vh;
-  width: 45vw;
+  height: 10%;
+  width: 20%;
   background-color: rgba(16,224,185,0.7);;
   color: #FFFFFF;
   font-family: "Arca Majora 3";
@@ -681,12 +683,12 @@ li.payforChange:hover {
 
 .rectangleLeft {
   position: absolute;
-  margin-top: 20vh;
+  margin-top: 10%;
 }
 
 .rectangleRight {
   position: absolute;
-  margin-top: 80vh;
+  margin-top: 70%;
   right: 0.01px;
 }
 
@@ -702,7 +704,7 @@ rgba(18,17,17,0.6)*/
   font-size: 8px;
   position: fixed;
   width: 100%;
-  top: 98vh;
+  top: 98%;
   text-align: center;
   color: #C5B085;
   z-index: 99;
@@ -711,7 +713,7 @@ rgba(18,17,17,0.6)*/
 /*MEDIA FOR PAGE 1 AND HAMBURGER MENU*/
 @media screen and (max-width: 768px) {
   #menu {
-    width: 100vw;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -752,9 +754,12 @@ rgba(18,17,17,0.6)*/
     font-size: 13px;
   }
 }
-@media screen and (min-width: 737px) {
+@media screen and (min-width: 1025px) {
   .thrivelogoText_p2 {
-    height: 10vh;
+    height: 10%;
+    width: 60%;
+    padding-top: 30%;
+    margin-left: 50%;
   }
   .main_landingpageText {
     letter-spacing: 2px;
@@ -762,6 +767,13 @@ rgba(18,17,17,0.6)*/
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .wraplogo_text {
+    padding-top: 65%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main_landingpageText {
     padding-top: 10%;
@@ -774,7 +786,7 @@ rgba(18,17,17,0.6)*/
 /*MEDIA FOR PAGE 4*/
 @media screen and (min-width: 737px) {
   .slide_pageText {
-    max-width: 100vw;
+    max-width: 100%;
   }
 }
 
@@ -785,17 +797,9 @@ rgba(18,17,17,0.6)*/
   }
 
   .slide_pageText {
-    width: 66vw;
-    height: 9vh;
-    padding-top: 1vh;
-  }
-  .textWrapper {
-    padding-bottom: 5vh;
-  }
-  .wind_logo,
-  .fire_logo,
-  .water_logo {
-    padding-bottom: 5vh;
+    width: 100%;
+    height: 9%;
+    padding-top: 2%;
   }
 }
 
@@ -811,7 +815,7 @@ rgba(18,17,17,0.6)*/
     height: 150px;
   }
   .bottomPageFive {
-    height: 15vh;
+    height: 30%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -835,25 +839,25 @@ rgba(18,17,17,0.6)*/
     background-image: url(../images/Background-desk/Shop_desk.png);
   }
   .rectangleLeft {
-    margin-top: 70vh;
+    margin-top: 10%;
   }
 }
 @media screen and (min-width: 768px) {
   .rectangleRight {
-    margin-top: 70vh;
+    margin-top: 50%;
   }
 }
 @media screen and (min-width: 1399px) {
   .rectangleRight,
   .rectangleLeft {
-    width: 20vw;
-    height: 15vh;
+    width: 10%;
+    height: 15%;
   }
 }
 @media screen and (min-width: 413px) and (max-width: 414px) {
   .rectangleLeft,
   .rectangleRight {
-    width: 40vw;
+    width: 20%;
   }
 }
 
