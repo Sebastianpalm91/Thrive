@@ -217,7 +217,7 @@ li.payforChange:hover {
 }
 
 .scroll-indicator {
-  width: 2px;
+  width: 1px;
   height: 10vh;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
@@ -538,7 +538,7 @@ li.payforChange:hover {
 }
 
 .scroll-indicatorPageFive {
-  width: 2px;
+  width: 1px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
@@ -611,7 +611,7 @@ li.payforChange:hover {
 
 .scroll-indicator-horizontal {
   width: 200px;
-  height: 2px;
+  height: 1px;
   background-color: rgba(0, 0, 0, 0.68);
   overflow: hidden;
 }
@@ -656,8 +656,8 @@ li.payforChange:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 10vh;
-  width: 80vw;
+  height: 10%;
+  width: 40%;
 }
 
 .white_h1 {
@@ -696,9 +696,7 @@ li.payforChange:hover {
 .rectangleRight:hover {
   background-color: rgba(95,223,200,0.7);;
 }
-/*rgba(19, 133, 111, 0.91)
-rgba(19, 195, 162, 0.7)
-rgba(18,17,17,0.6)*/
+
 .footer {
   margin: 0 auto;
   font-size: 8px;
@@ -808,7 +806,10 @@ rgba(18,17,17,0.6)*/
   .scroll-indicatorPageFive {
     margin-right: 5vw;
   }
-
+  .bottomPageFive {
+    top: 60%;
+    height: 30%;
+  }
 }
 @media screen and (max-width:320px) {
   .scroll-indicatorPageFive {

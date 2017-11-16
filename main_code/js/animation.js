@@ -118,6 +118,5 @@ buttonRight.addEventListener('click', function() {
        location.href = "http://www.thrivestore.se/feminint-dam";
 })
 buttonIcon.addEventListener('click', function() {
-  backgroundElementIcon.style.backgroundColor = '#C5B085'; // byt färg på elementet
-       location.href = "http://www.thrivestore.se";
+  window.scrollTo(0, 0);
 })
