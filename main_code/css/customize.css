@@ -838,15 +838,34 @@ li.payforChange:hover {
 /*MEDIA FOR PAGE 6*/
 @media screen and (min-width: 1024px) {
   .shop_background {
-    background-image: url(../images/Background-desk/Shop_desk.png);
+    background-image: url(../images/Background-desk/Shop_desk_01.png);
   }
   .rectangleLeft {
-    margin-top: 10%;
+    margin-top: 16%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .rectangleRight,
+  .rectangleLeft {
+    width: 23%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .rectangleLeft {
+    margin-top: 15%;
+  }
+  .rectangleRight {
+    margin-top: 65%;
   }
 }
 @media screen and (min-width: 768px) {
   .rectangleRight {
     margin-top: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .rectangleRight {
+    margin-top: 16%;
   }
 }
 @media screen and (min-width: 1399px) {
