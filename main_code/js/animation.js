@@ -47,7 +47,7 @@ function hideAddressBar() {
 
 
     onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
-      console.log(index, direction, slideIndex);
+      console.log(index);
     var leavingSlide = $(this);
 
     if(index == 4 && slideIndex == 0 && direction == 'right'){

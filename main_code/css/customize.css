@@ -868,6 +868,12 @@ li.payforChange:hover {
     margin-top: 16%;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+  .rectangleRight,
+  .rectangleLeft {
+    margin-top: 50%;
+  }
+}
 @media screen and (min-width: 1399px) {
   .rectangleRight,
   .rectangleLeft {
