@@ -1,6 +1,8 @@
 # THRIVE PROJECT
 ## GROUP 7
 
+<img src="https://media.giphy.com/media/5Zesu5VPNGJlm/giphy.gif" width="100%" alt="">
+
 ### Following the instructions below to get started:
 
 1, Clone this repository (locally) to your desktop<br>
